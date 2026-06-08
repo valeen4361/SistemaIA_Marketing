@@ -1,0 +1,15 @@
+{
+  "name": "poker-marketing-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema de IA para marketing de club de poker (Remotion + Instagram)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix remotion install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:remotion": "npm --prefix remotion run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "render:cli": "npm --prefix backend run render"
+  }
+}
